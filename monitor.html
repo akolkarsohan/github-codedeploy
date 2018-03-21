@@ -1,0 +1,35 @@
+<html>
+
+	<head>
+		<title>AWS CodeDeploy Monitor</title>
+    <meta http-equiv="refresh" content="5";>
+ 	</head>
+
+	<style>
+		iframe.instancebox{ background-color:#1E90FF; width:300px; height:280px;}
+		iframe.elb-box{ background-color:#FFFAF0; width:300px; height: 280px; }
+	</style>
+
+ 	<body bgcolor='#696969'>
+ 		<h1>AWS CodeDeploy Monitor</h1>
+ 			<div>
+ 			    <div>
+ 			        ELB (Public Perspective)<br />
+ 			        <iframe class="elb-box" src="http://LinuxWebELB-998483324.us-east-1.elb.amazonaws.com"></iframe>
+ 			    </div>
+			    <div style="float:left; width:30%;">
+ 			        Instance 1<br />
+ 			        <iframe class="instancebox" src="http://52.87.211.146"></iframe>
+			    </div>
+ 			    <div style="float:left; width:30%;">
+ 			        Instance 2<br />
+ 			        <iframe class="instancebox" src="http://34.200.237.183"></iframe>
+ 			    </div>
+ 			    <div style="float:left; width:30%;">
+ 			        Instance 3<br />
+ 			        <iframe class="instancebox" src="http://52.203.34.59"></iframe>
+ 			    </div>
+ 			</div>
+ 	</body>
+
+ </html>
